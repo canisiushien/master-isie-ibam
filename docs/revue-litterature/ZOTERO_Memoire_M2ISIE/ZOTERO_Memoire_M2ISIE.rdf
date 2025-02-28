@@ -1,0 +1,2166 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="http://rivieresdusud.uasz.sn/xmlui/handle/123456789/1803">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bakhoum</foaf:surname>
+                        <foaf:givenName>Ana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>La Blockchain pour la Sécurisation des E-livrets scolaires</dc:title>
+        <dcterms:abstract>Le livret scolaire est un document administratif au format papier permettant de 
+répertorier les notes des élèves dans les cycles moyen et secondaire (de la classe de sixième à 
+la classe de terminal). Comme dans tout document physique partagé entre plusieurs acteurs, ces 
+derniers rencontrent d’énormes difficultés dans la manipulation, le remplissage, le stockage et 
+la sécurité des livrets scolaires. En 2017, l’entreprise YAKAARTIC, dans le cadre de ses 
+activités, a proposé la dématérialisation du livret scolaire. Cette dématérialisation a constitué à 
+la mise en place d’un système de recueil et de stockage des informations qui étaient dans le 
+livret en papier. On parle ainsi de livrets électroniques (E-livrets).
+Pour offrir à ce système le niveau de sécurité qui est requis par les livrets scolaires
+électroniques nous proposons de mettre en place une application décentralisée pour la 
+sauvegarde des E-livrets. Cette application permet de renforcer la sécurité du système de gestion 
+des livrets électroniques (SGLE) en s’appuyant sur la technologie Blockchain particulièrement 
+sur Ethereum. 
+En effet, la Blockchain est caractérisée par la transparence, la non répudiation, 
+l’immuabilité des données mais aussi son réseau distribué et les mécanismes de sécurité comme 
+la cryptographie et les fonctions de hachages qu’elle incorpore dans son protocole. En ce sens, 
+l’application décentralisée pour la sécurisation des E-livrets Scolaires permet de protéger les 
+livrets électroniques contre les modifications inattendues et sert de vérifications et de 
+validations de livrets électroniques imprimés depuis le système SGLE.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>fr</z:language>
+        <z:libraryCatalog>rivieresdusud.uasz.sn</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://rivieresdusud.uasz.sn/xmlui/handle/123456789/1803</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-10 09:50:47</dcterms:dateSubmitted>
+        <dc:description>Accepted: 2023-07-11T10:29:19Z</dc:description>
+        <bib:pages>103</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/Bakhoum - 2019 - La Blockchain pour la Sécurisation des E-livrets scolaires.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://rivieresdusud.uasz.sn/xmlui/bitstream/123456789/1803/1/bakhoum_memoire_2019.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-29 23:50:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.academia.edu/download/56098741/GODEBARGE_ROSSAT_Blockchain-version-finale.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>EM Lyon Business School</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Godebarge</foaf:surname>
+                        <foaf:givenName>FERRéOL</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rossat</foaf:surname>
+                        <foaf:givenName>ROMAIN</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7"/>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Principes clés d’une application Blockchain</dc:title>
+        <dc:date>2016-12-15</dc:date>
+        <z:language>fr</z:language>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/download/56098741/GODEBARGE_ROSSAT_Blockchain-version-finale.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-11 10:18:17</dcterms:dateSubmitted>
+        <bib:pages>50</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_7">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/7/Godebarge et Rossat - 2016 - Principes clés d’une application Blockchain.pdf"/>
+        <dc:subject>consulté le 11-09-2024</dc:subject>
+        <dc:title>Available Version (via Google Scholar)</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/download/56098741/GODEBARGE_ROSSAT_Blockchain-version-finale.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:18:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/Principes_cles_dune_application_blockcha.pdf"/>
+        <dc:title>Principes_cles_dune_application_blockcha</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1007/BF00196791">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1432-1378"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haber</foaf:surname>
+                        <foaf:givenName>Stuart</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stornetta</foaf:surname>
+                        <foaf:givenName>W. Scott</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hash</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Time-stamp</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>How to time-stamp a digital document</dc:title>
+        <dcterms:abstract>The prospect of a world in which all text, audio, picture, and video documents are in digital form on easily modifiable media raises the issue of how to certify when a document was created or last changed. The problem is to time-stamp the data, not the medium. We propose computationally practical procedures for digital time-stamping of such documents so that it is infeasible for a user either to back-date or to forward-date his document, even with the collusion of a time-stamping service. Our procedures maintain complete privacy of the documents themselves, and require no record-keeping by the time-stamping service.</dcterms:abstract>
+        <dc:date>1991-01-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/BF00196791</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-17 00:34:19</dcterms:dateSubmitted>
+        <bib:pages>99-111</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1432-1378">
+        <prism:volume>3</prism:volume>
+        <dc:title>Journal of Cryptology</dc:title>
+        <dc:identifier>DOI 10.1007/BF00196791</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>J. Cryptology</dcterms:alternative>
+        <dc:identifier>ISSN 1432-1378</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/10/Haber et Stornetta - 1991 - How to time-stamp a digital document.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2FBF00196791.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:34:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4613-9323-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4613-9323-8</dc:identifier>
+                <dc:title>Sequences II</dc:title>
+                <dc:identifier>DOI 10.1007/978-1-4613-9323-8_24</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bayer</foaf:surname>
+                        <foaf:givenName>Dave</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haber</foaf:surname>
+                        <foaf:givenName>Stuart</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stornetta</foaf:surname>
+                        <foaf:givenName>W. Scott</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Capocelli</foaf:surname>
+                        <foaf:givenName>Renato</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Santis</foaf:surname>
+                        <foaf:givenName>Alfredo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vaccaro</foaf:surname>
+                        <foaf:givenName>Ugo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Improving the Efficiency and Reliability of Digital Time-Stamping</dc:title>
+        <dcterms:abstract>To establish that a document was created after a given moment in time, it is necessary to report events that could not have been predicted before they happened. To establish that a document was created before a given moment in time, it is necessary to cause an event based on the document, which can be observed by others. Cryptographic hash functions can be used both to report events succinctly, and to cause events based on documents without revealing their contents. Haber and Stornetta have proposed two schemes for digital time-stamping which rely on these principles [HaSt 91].</dcterms:abstract>
+        <dc:date>1993</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dcterms:dateSubmitted>2024-09-17 00:34:19</dcterms:dateSubmitted>
+        <bib:pages>329-334</bib:pages>
+    </rdf:Description>
+    <bib:Document rdf:about="https://www.lemonde.fr/big-browser/article/2018/09/01/la-premiere-blockchain-de-l-histoire-date-de-1995-et-elle-est-imprimee-sur-papier_5349082_4832693.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Le Monde.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_113"/>
+        <dc:title>La première blockchain de l’histoire date de 1995, et elle est imprimée sur papier</dc:title>
+        <dcterms:abstract>Bien avant l’invention du bitcoin, le premier système de certification décentralisé utilisait chaque semaine la rubrique « annonces et objets trouvés » du « New York Times » pour fonctionner.</dcterms:abstract>
+        <dc:date>2018-09-01T21:00:54+00:00</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lemonde.fr/big-browser/article/2018/09/01/la-premiere-blockchain-de-l-histoire-date-de-1995-et-elle-est-imprimee-sur-papier_5349082_4832693.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-17 00:42:53</dcterms:dateSubmitted>
+        <dc:description>Section: Big Browser</dc:description>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_113">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;“&lt;em&gt;The longest running blockchain started in 1995 and is still running strong today. (…)&lt;/em&gt;”&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="https://scholarworks.lib.csusb.edu/jitim/vol24/iss3/2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1941-6679"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Subramanian</foaf:surname>
+                        <foaf:givenName>Ramesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chino</foaf:surname>
+                        <foaf:givenName>Theo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <link:link rdf:resource="#item_15"/>
+        <dc:title>The State of Cryptocurrencies, Their Issues and Policy Interactions</dc:title>
+        <dc:date>2015-01-01</dc:date>
+        <z:libraryCatalog>COinS</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://scholarworks.lib.csusb.edu/jitim/vol24/iss3/2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-18</dcterms:dateSubmitted>
+        <bib:pages>40</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1941-6679">
+        <prism:volume>24</prism:volume>
+        <dc:title>Journal of International Technology and Information Management</dc:title>
+        <dc:identifier>DOI 10.58729/1941-6679.1045</dc:identifier>
+        <prism:number>3</prism:number>
+        <dc:identifier>ISSN 1941-6679</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/14/2.html"/>
+        <dc:title>&quot;State of Cryptocurrencies, Their Issues &amp; Policy Interactions&quot; by Ramesh Subramanian and Theo Chino</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://scholarworks.lib.csusb.edu/jitim/vol24/iss3/2/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:45:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/Subramanian et Chino - 2015 - The State of Cryptocurrencies, Their Issues and Policy Interactions.pdf"/>
+        <dc:title>Texte intégral</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=1045&amp;context=jitim</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:45:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://bitcoin.org/bitcoin.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nakamoto</foaf:surname>
+                        <foaf:givenName>Satoshi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_16"/>
+        <dc:title>Bitcoin: A Peer-to-Peer Electronic Cash System</dc:title>
+        <dcterms:abstract>A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://bitcoin.org/bitcoin.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-19</dcterms:dateSubmitted>
+        <bib:pages>9</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_16">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/16/Nakamoto - Bitcoin A Peer-to-Peer Electronic Cash System.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://bitcoin.org/bitcoin.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:50:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Blockchain&amp;oldid=222001944#Histoire">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_19"/>
+        <dc:title>Blockchain</dc:title>
+        <dcterms:abstract>Une blockchain, ou chaîne de blocs,, est une technologie numérique de stockage et de transmission d'informations sans autorité centrale, mise au point pour le système Bitcoin puis élargie à d'autres usages.
+Techniquement, c'est une base de données distribuée, dont les informations envoyées par les utilisateurs et les liens internes à la base sont vérifiés, puis groupés à intervalles de temps réguliers en « blocs », lesquels forment ainsi une chaîne de plus en plus longue. L'ensemble est sécurisé par cryptographie. Par extension, une chaîne de blocs est une base de données distribuée qui gère une liste d'enregistrements théoriquement protégés contre la falsification ou la modification par les nœuds de stockage ; c'est donc un registre distribué et sécurisé de toutes les transactions effectuées depuis le démarrage du système réparti.
+Il existe une analogie avec le réseau Internet, car dans les deux cas les technologies emploient des protocoles informatiques liés à une infrastructure décentralisée. Internet permet de transférer des paquets de données d'un serveur « sûr » à des clients distants (à charge, pour les destinataires, de vérifier l'intégrité des données transmises), alors qu'une blockchain permet à la « confiance » de s'établir entre des agents distincts du système. Avec la technologie blockchain, le « tiers de confiance » devient le système lui-même : chaque élément réparti de la blockchain contient les éléments nécessaires pour garantir l'intégrité des données échangées (par un algorithme cryptographique).</dcterms:abstract>
+        <dc:date>2025-01-11T14:48:36Z</dc:date>
+        <z:language>fr</z:language>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Blockchain&amp;oldid=222001944#Histoire</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-19 00:53:02</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:description>Page Version ID: 222001944</dc:description>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/19/Blockchain.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/wiki/Blockchain#Histoire</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:53:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-78712-929-0">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Packt Publishing Ltd</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bashir</foaf:surname>
+                        <foaf:givenName>Imran</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_21"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Data Science / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computers / Database Administration &amp; Management</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computers / Security / Cryptography &amp; Encryption</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Mastering Blockchain</dc:title>
+        <dcterms:abstract>Distributed ledgers, decentralization and smart contracts explainedAbout This BookGet to grips with the underlying technical principles and implementations of blockchain.Build powerful applications using Ethereum to secure transactions and create smart contracts.Explore cryptography, mine cryptocurrencies, and solve scalability issues with this comprehensive guide.Who This Book Is ForThis book appeals to those who wish to build fast, highly secure, transactional applications. This book is for those who are familiar with the concept of blockchain and are comfortable with a programming language.What You Will LearnMaster the theoretical and technical foundations of blockchain technologyFully comprehend the concept of decentralization, its impact and relationship with blockchain technologyExperience how cryptography is used to secure data with practical examplesGrasp the inner workings of blockchain and relevant mechanisms behind Bitcoin and alternative cryptocurrenciesUnderstand theoretical foundations of smart contractsIdentify and examine applications of blockchain technology outside of currenciesInvestigate alternate blockchain solutions including Hyperledger, Corda, and many moreExplore research topics and future scope of blockchain technologyIn DetailBlockchain is a distributed database that enables permanent, transparent, and secure storage of data. The blockchain technology is the backbone of cryptocurrency – in fact, it&amp;#39;s the shared public ledger upon which the entire Bitcoin network relies – and it&amp;#39;s gaining popularity with people who work in finance, government, and the arts.Blockhchain technology uses cryptography to keep data secure. This book gives a detailed description of this leading technology and its implementation in the real world.This book begins with the technical foundations of blockchain, teaching you the fundamentals of cryptography and how it keeps data secure. You will learn about the mechanisms behind cryptocurrencies and how to develop applications using Ethereum, a decentralized virtual machine. You will explore different blockchain solutions and get an exclusive preview into Hyperledger, an upcoming blockchain solution from IBM and the Linux Foundation. You will also be shown how to implement blockchain beyond currencies, scability with blockchain, and the future scope of this fascinating and powerful technology.Style and approachThis comprehensive guide allows you to build smart blockchain applications and explore the power of this database. The book will let you quickly brush up on the basics of the blockchain database, followed by advanced implementations of blockchain in currency, smart contracts, decentralization, and so on.</dcterms:abstract>
+        <dc:date>2017-03-17</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <dcterms:dateSubmitted>2024-09-28</dcterms:dateSubmitted>
+        <dc:description>Google-Books-ID: urkrDwAAQBAJ</dc:description>
+        <dc:identifier>ISBN 978-1-78712-929-0</dc:identifier>
+        <z:numPages>531</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Google Books Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://books.google.bf/books?id=urkrDwAAQBAJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:55:22</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://cryptoast.fr/differences-blockchain-publique-blockchain-privee/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Cryptoast</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jonnaert</foaf:surname>
+                        <foaf:givenName>Jean-Loup</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_23"/>
+        <dc:title>Quelles différences entre blockchain publique et blockchain privée ?</dc:title>
+        <dcterms:abstract>Quelles sont les différences entre les blockchains publiques et les blockchains privées ?Tout pour comprendre les rôles des blockchains</dcterms:abstract>
+        <dc:date>2023-06-12T08:00:28+00:00</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cryptoast.fr/differences-blockchain-publique-blockchain-privee/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-29 00:57:22</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/23/differences-blockchain-publique-blockchain-privee.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cryptoast.fr/differences-blockchain-publique-blockchain-privee/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:57:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://101blockchains.com/blockchain-consortium/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>101 Blockchains</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anwar</foaf:surname>
+                        <foaf:givenName>Hasib</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_25"/>
+        <dc:title>Blockchain Consortium: Top 20 Consortia You Should Check Out</dc:title>
+        <dcterms:abstract>There are various types of blockchain technology on the market now. In this guide, we will dive into the core elements of a consortium blockchain and</dcterms:abstract>
+        <dc:date>2021-02-08T10:11:47+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Blockchain Consortium</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://101blockchains.com/blockchain-consortium/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-02 00:59:11</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/25/blockchain-consortium.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://101blockchains.com/blockchain-consortium/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 00:59:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_27">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Back</foaf:surname>
+                        <foaf:givenName>Adam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corallo</foaf:surname>
+                        <foaf:givenName>Matt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dashjr</foaf:surname>
+                        <foaf:givenName>Luke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Friedenbach</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maxwell</foaf:surname>
+                        <foaf:givenName>Gregory</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Poelstra</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Timón</foaf:surname>
+                        <foaf:givenName>Jorge</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wuille</foaf:surname>
+                        <foaf:givenName>Pieter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_26"/>
+        <dc:title>Enabling Blockchain Innovations with Pegged Sidechains</dc:title>
+        <dcterms:abstract>Since the introduction of Bitcoin[Nak09] in 2009, and the multiple computer science and electronic cash innovations it brought, there has been great interest in the potential of decentralised cryptocurrencies. At the same time, implementation changes to the consensuscritical parts of Bitcoin must necessarily be handled very conservatively. As a result, Bitcoin has greater difﬁculty than other Internet protocols in adapting to new demands and accommodating new innovation.</dcterms:abstract>
+        <dc:date>2014-10-22</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <dcterms:dateSubmitted>2024-10-02</dcterms:dateSubmitted>
+        <bib:pages>25</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/26/Back et al. - Enabling Blockchain Innovations with Pegged Sidechains.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://blockstream.com/sidechains.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:02:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://w3r.one/fr/blog/blockchain-web3/architecture-blockchain/conception-de-blocs/elements-fondamentaux-bloc-blockchain">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_29"/>
+        <dc:title>Éléments Fondamentaux d'un Bloc dans la Blockchain - W3r.one Magazine</dc:title>
+        <dcterms:abstract>Découvrez les composantes essentielles qui constituent un bloc dans une blockchain, de l'en-tête aux transactions. Cet article détaille la structure des blocs et leur rôle central dans la sécurité d'une chaîne.</dcterms:abstract>
+        <dc:date>2024-02-09</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://w3r.one/fr/blog/blockchain-web3/architecture-blockchain/conception-de-blocs/elements-fondamentaux-bloc-blockchain</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 01:04:01</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/29/elements-fondamentaux-bloc-blockchain.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://w3r.one/fr/blog/blockchain-web3/architecture-blockchain/conception-de-blocs/elements-fondamentaux-bloc-blockchain</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:04:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.researchgate.net/publication/335174496_CHAPITRE_III_Etat_de_l'art_de_la_Blockchain">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ResearchGate</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oussama</foaf:surname>
+                        <foaf:givenName>Abderraouf Ayadi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_62"/>
+        <link:link rdf:resource="#item_31"/>
+        <dc:subject>Tous les mineurs sont des nœuds, mais tous les nœuds ne sont pas nécessairement des mineurs.</dc:subject>
+        <dc:title>CHAPITRE III : État de l'art de la Blockchain</dc:title>
+        <dcterms:abstract>PDF | State of the art of Blockchain. | Find, read and cite all the research you need on ResearchGate</dcterms:abstract>
+        <dc:date>2019-08-15</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>CHAPITRE III: État de l'art de la Blockchain</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/335174496_CHAPITRE_III_Etat_de_l'art_de_la_Blockchain</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-21 01:05:59</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_62">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;em&gt;“Tous les mineurs sont des nœuds, mais tous les nœuds ne sont pas nécessairement des mineurs.” P.73&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_31">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/31/335174496_CHAPITRE_III_Etat_de_l'art_de_la_Blockchain.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/335174496_CHAPITRE_III_Etat_de_l%27art_de_la_Blockchain</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:06:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ijair.id/index.php/ijair/article/view/294">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2579-7298"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meirobie</foaf:surname>
+                        <foaf:givenName>Isyak</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Irawan</foaf:surname>
+                        <foaf:givenName>Agustinus Purna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sukmana</foaf:surname>
+                        <foaf:givenName>Husni Teja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lazirkha</foaf:surname>
+                        <foaf:givenName>Diana Putri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santoso</foaf:surname>
+                        <foaf:givenName>Nuke Puji Lestari</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_33"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Blockchain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Document Security</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Governance</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Smart Contracts</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Framework Authentication e-document using Blockchain Technology on the Government system</dc:title>
+        <dcterms:abstract>As a sophisticated platform, namely Blockchain, which has 3 (three) potentials to change the governance system which is still considered traditional, solve the problem of principal agents, and minimize the crime of document falsification. However, in the government sector, the documents used can be insecure and lead to document falsification. Blockchain is becoming increasingly significant in document services and beyond until questions arise about the authenticity and security of manuscripts and documents in the government sector. So, Go-Chain (Government Blockchain) it is necessary to authenticate documents using Blockchain to minimize document forgery. By utilizing the potential of Blockchain technology, this research aims to maximize government e-documents in a modern and secure manner. Propose a Blockchain-based document framework method that is applied with a literature review studyâ€”in addition to ensuring the speed of system execution by utilizing DAO (Decentralized Autonomous Organization) and Smart Contracts. The result is that modern and safe government e-documents in document verification can significantly maintain transparency and increase trust in public services.</dcterms:abstract>
+        <dc:date>2022-12-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>ijair.id</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ijair.id/index.php/ijair/article/view/294</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 01:07:43</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c) 2022 Isyak Meirobie, Agustinus Purna Irawan, Husni Teja Sukmana, Diana Putri Lazirkha, Nuke Puji Lestari Santoso</dc:rights>
+        <dc:description>Number: 2</dc:description>
+        <bib:pages>12</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2579-7298">
+        <prism:volume>6</prism:volume>
+        <dc:title>International Journal of Artificial Intelligence Research</dc:title>
+        <dc:identifier>DOI 10.29099/ijair.v6i2.294</dc:identifier>
+        <prism:number>2</prism:number>
+        <dc:identifier>ISSN 2579-7298</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/Meirobie et al. - 2022 - Framework Authentication e-document using Blockchain Technology on the Government system.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ijair.id/index.php/ijair/article/download/294/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:07:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.iso.org/committee/6266604/x/catalogue/p/1/u/1/w/0/d/0">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_35"/>
+        <dc:title>ISO/TC 307 - Blockchain and distributed ledger technologies</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.iso.org/committee/6266604/x/catalogue/p/1/u/1/w/0/d/0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-10-31 01:09:42</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/35/0.html"/>
+        <dc:title>ISO/TC 307 - Blockchain and distributed ledger technologies</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.iso.org/committee/6266604/x/catalogue/p/1/u/1/w/0/d/0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:09:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.larousse.fr/dictionnaires/francais/consensus/18357">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Larousse</foaf:surname>
+                        <foaf:givenName>Éditions</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>Définitions : consensus - Dictionnaire de français Larousse</dc:title>
+        <dcterms:abstract>consensus - Définitions Français : Retrouvez la définition de consensus... - synonymes, homonymes, difficultés, citations.</dcterms:abstract>
+        <z:language>fr</z:language>
+        <z:shortTitle>Définitions</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.larousse.fr/dictionnaires/francais/consensus/18357</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 01:13:18</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/37/18357.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.larousse.fr/dictionnaires/francais/consensus/18357</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:13:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://crypto.com/fr/university/consensus-mechanisms-explained">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Qu’est-ce que le consensus ? Guide du débutant</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_39"/>
+        <dc:title>Qu’est-ce que le consensus ? Guide du débutant</dc:title>
+        <dcterms:abstract>Qu’est-ce qu’un mécanisme de consensus ? De la preuve de travail à la preuve d’enjeu, découvrez comment elles fonctionnent pour les crypto-monnaies.</dcterms:abstract>
+        <dc:date>2022-05-13</dc:date>
+        <z:shortTitle>Qu’est-ce que le consensus ?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://crypto.com/fr/university/consensus-mechanisms-explained</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 01:15:23</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/39/consensus-mechanisms-explained.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://crypto.com/fr/university/consensus-mechanisms-explained</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:15:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://academy.bit2me.com/fr/qu%27est-ce-qu%27un-arbre-merkle/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Bit2Me Academy</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_41"/>
+        <dc:title>Qu'est-ce qu'un arbre Merkle?</dc:title>
+        <dcterms:abstract>Un arbre Merkle est une structure de données créée dans le but de faciliter la vérification de grandes quantités de données en informatique.</dcterms:abstract>
+        <dc:date>2019-11-11</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academy.bit2me.com/fr/qu%27est-ce-qu%27un-arbre-merkle/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-12-18 01:24:52</dcterms:dateSubmitted>
+        <dc:description>Section: Blockchain</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/41/que-es-un-arbol-merkle.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academy.bit2me.com/fr/que-es-un-arbol-merkle/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:25:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.linternaute.fr/dictionnaire/fr/definition/consensus/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_43"/>
+        <dc:title>Consensus : Définition simple et facile du dictionnaire</dc:title>
+        <dcterms:abstract>Consensus : définition, contraire, citations, traduction dans le dictionnaire de la langue française. Définition : Accord entre plusieurs parties...</dcterms:abstract>
+        <dc:date>2024-06-09</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>Consensus</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.linternaute.fr/dictionnaire/fr/definition/consensus/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 01:26:07</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/43/consensus.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.linternaute.fr/dictionnaire/fr/definition/consensus/#faq</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:26:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://andersbrownworth.com/blockchain/hash">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anders</foaf:surname>
+                        <foaf:givenName>Brownworth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_45"/>
+        <dc:title>Blockchain Demo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://andersbrownworth.com/blockchain/hash</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-23 01:27:29</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/45/hash.html"/>
+        <dc:title>Blockchain Demo</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://andersbrownworth.com/blockchain/hash</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:27:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.csc.bf/index.php/textes-de-reference/lois/item/76-loi-051-portant-sur-l-acces-a-l-information-publique">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bertrand</foaf:surname>
+                        <foaf:givenName>BAGA</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_114"/>
+        <link:link rdf:resource="#item_47"/>
+        <dc:title>Loi 051 portant sur l'accès à l'information publique - CSC - BURKINA FASO</dc:title>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.csc.bf/index.php/textes-de-reference/lois/item/76-loi-051-portant-sur-l-acces-a-l-information-publique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-16 01:28:49</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_114">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;“&lt;em&gt;les documents produits ou reçus, dans le cadre de la mission de service public, par l’Etat, les collectivités territoriales ainsi que par les autres personnes de droit public ou les personnes de droit privé chargées d’une telle mission&lt;/em&gt;” p.4&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_47">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/47/76-loi-051-portant-sur-l-acces-a-l-information-publique.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.csc.bf/index.php/textes-de-reference/lois/item/76-loi-051-portant-sur-l-acces-a-l-information-publique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:28:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.facebook.com/share/p/1BP46UYXF9/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname></foaf:surname>
+                        <foaf:givenName>Ministère de l'Economie et des Finances du Burkina Faso</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_49"/>
+        <dc:title>ALERTE VIGILANCE</dc:title>
+        <dcterms:abstract>⛔ 𝐀𝐋𝐄𝐑𝐓𝐄 𝐕𝐈𝐆𝐈𝐋𝐀𝐍𝐂𝐄 ⛔
+
+Des avis au public, faussement attribués au ministère de l'Economie et des Finances faisant état de l'ouverture de sessions d'investissement sur les cryptomonnaies sont diffusés...</dcterms:abstract>
+        <dc:date>2025-01-23 07:29:00</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.facebook.com/share/p/1BP46UYXF9/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-26 01:35:03</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_49">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/49/story.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.facebook.com/story.php?story_fbid=938243418490634&amp;id=100069149531568&amp;rdid=y15TejyFSssgBSmd</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:35:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.facebook.com/share/p/kHPydXy6A1zMniK1/?mibextid=oFDknk">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname></foaf:surname>
+                        <foaf:givenName>DCRP/MFPTPS</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_51"/>
+        <dc:title>Ministère de la Fonction Publique, du Travail et de la Protection Sociale</dc:title>
+        <dcterms:abstract>Une loi portant statut général des agents publics et un projet de loi portant statut général des agents publics circulant sur les réseaux sociaux sont faux. 
+
+Ces textes ne proviennent pas des...</dcterms:abstract>
+        <dc:date>2024-08-16 14:45:00</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.facebook.com/share/p/kHPydXy6A1zMniK1/?mibextid=oFDknk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 01:41:28</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/51/story.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.facebook.com/story.php?story_fbid=807359534919607&amp;id=100069367022538&amp;mibextid=oFDknk&amp;rdid=S1UHn4wroq8rNlMd</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:41:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.facebook.com/share/p/15f4cKVZ3P/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname></foaf:surname>
+                        <foaf:givenName>Douanes du Burkina Faso</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_53"/>
+        <dc:title>Service de Communication et des Relations Publiques de la Direction Générale des Douanes</dc:title>
+        <dcterms:abstract>Le Service de Communication et des Relations Publiques de la Direction Générale des Douanes informe le public que les communiqués, ci-dessous, sur une supposée vente aux enchères de véhicules...</dcterms:abstract>
+        <dc:date>2024-01-18 17:34:00</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.facebook.com/share/p/15f4cKVZ3P/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 01:46:05</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_53">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/53/story.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.facebook.com/story.php?story_fbid=777810804387234&amp;id=100064749634773&amp;rdid=gI8EI3ENlML8olkJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:46:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.facebook.com/share/p/yqFV712VwsjcHxne/?mibextid=oFDknk">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname></foaf:surname>
+                        <foaf:givenName>DCRP/MAECR-BE</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_55"/>
+        <dc:title>Ministère des Affaires Etrangères du Burkina Faso</dc:title>
+        <dcterms:abstract>Depuis un certain temps un communiqué relatif à une bourse canadienne et impliquant le Ministère des Affaires Etrangères du Burkina Faso circule sur les réseaux sociaux. 
+Le Ministère des Affaires...</dcterms:abstract>
+        <dc:date>2023-10-06 14:50:00</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.facebook.com/share/p/yqFV712VwsjcHxne/?mibextid=oFDknk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 01:48:29</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/55/story.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.facebook.com/story.php?story_fbid=720271120128846&amp;id=100064378944389&amp;mibextid=oFDknk&amp;rdid=3hHCLdxZwjtJfa13</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:48:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.facebook.com/share/p/DYayYQThHP2NLDbF/?mibextid=oFDknk">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname></foaf:surname>
+                        <foaf:givenName>Direction générale de l’INSD</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <dc:title>Démenti de recrutement d’étudiants</dc:title>
+        <dcterms:abstract>Démenti de recrutement d’étudiants 
+
+Des informations circulant sur les réseaux sociaux font état de recrutement, en contrepartie de paiement des sommes d’argent, des candidats de niveau BAC pour des...</dcterms:abstract>
+        <dc:date>2021-11-30 11:07:00</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.facebook.com/share/p/DYayYQThHP2NLDbF/?mibextid=oFDknk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-09-15 11:50:25</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/57/story.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.facebook.com/story.php?story_fbid=975626569974564&amp;id=160676898136206&amp;mibextid=oFDknk&amp;rdid=kn4V7C7SHc4jIZKd</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-30 01:50:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://crypto.com/en/university/different-types-of-consensus-for-blockchain">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+                <dc:title>How to Agree: Different Types of Consensus for Blockchain</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_64"/>
+        <dc:title>How to Agree: Different Types of Consensus for Blockchain</dc:title>
+        <dcterms:abstract>There are many more types of consensus than Proof of Work and Proof of Stake. Here we introduce the most important alternatives.</dcterms:abstract>
+        <dc:date>2022-06-09</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>How to Agree</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://crypto.com/en/university/different-types-of-consensus-for-blockchain</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-01 16:44:04</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_64">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/64/different-types-of-consensus-for-blockchain.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://crypto.com/en/university/different-types-of-consensus-for-blockchain?utm_source=crypto.com+university&amp;utm_medium=referral&amp;utm_campaign=what+is+blockchain&amp;utm_content=how+to+agree%3A+different+types+of+consensus+for+blockchain</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-01 16:44:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.coinbase.com/fr/learn/crypto-glossary/what-is-a-51-percent-attack-and-what-are-the-risks">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>coinbase</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_68"/>
+        <dc:title>Qu’est-ce qu’une attaque à 51% et quels sont les risques ?</dc:title>
+        <dcterms:abstract>Une attaque à 51 % est une menace potentielle pour les réseaux blockchain, où un groupe de mineurs peut contrôler plus de 50 % du taux de hachage de minage du réseau. Ce contrôle peut permettre aux attaquants d’empêcher les nouvelles transactions d’obtenir des confirmations, d’arrêter les paiements et même d’annuler les transactions. Alors que les grands réseaux sont moins susceptibles d’être victimes d’une attaque à 51 %, les petits réseaux sont plus vulnérables.</dcterms:abstract>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.coinbase.com/fr/learn/crypto-glossary/what-is-a-51-percent-attack-and-what-are-the-risks</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-03 16:50:34</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_68">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/68/what-is-a-51-percent-attack-and-what-are-the-risks.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.coinbase.com/fr/learn/crypto-glossary/what-is-a-51-percent-attack-and-what-are-the-risks</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-03 16:50:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.lemagit.fr/conseil/Blockchain-quest-ce-quun-Smart-Contract-et-a-quoi-ca-sert">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>LeMagIT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_70"/>
+        <dc:title>Blockchain : qu’est-ce qu’un Smart Contract et à quoi ça sert ?</dc:title>
+        <dcterms:abstract>Les « Smart Contracts » sont des contrats qui s’appuient sur la technologie Blockchain pour rendre infalsifiables leurs termes et les conditions de leurs exécutions.</dcterms:abstract>
+        <dc:date>23/11/2016</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>Blockchain</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lemagit.fr/conseil/Blockchain-quest-ce-quun-Smart-Contract-et-a-quoi-ca-sert</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-05 15:48:33</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_70">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/70/Blockchain-quest-ce-quun-Smart-Contract-et-a-quoi-ca-sert.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lemagit.fr/conseil/Blockchain-quest-ce-quun-Smart-Contract-et-a-quoi-ca-sert</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-06 15:48:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.ibm.com/fr-fr/topics/smart-contracts">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_72"/>
+        <dc:title>Que sont les contrats intelligents sur la blockchain ? | IBM</dc:title>
+        <dcterms:abstract>Découvrez les contrats intelligents et comment un réseau de blockchain peut exécuter automatiquement un contrat lorsque des conditions prédéterminées sont remplies.</dcterms:abstract>
+        <dc:date>2024-12-26T19:40:23.521</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>Que sont les contrats intelligents sur la blockchain ?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ibm.com/fr-fr/topics/smart-contracts</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-07 15:30:38</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_72">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;j’ai utilisé la partie Avantages des contrats intelligents&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Document rdf:about="https://www.captaincontrat.com/contrats-commerciaux-cgv/contrats-commerciaux/smart-contract-definition-et-fonctionnement-me-beaubourg-avocats">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_74"/>
+        <dc:title>Smart contract : définition et fonctionnement</dc:title>
+        <dcterms:abstract>Un smart contract est un programme informatique dont l’objectif est d’automatiser l’exécution d’un contrat.</dcterms:abstract>
+        <dc:date>2023-12-29</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>Smart contract</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.captaincontrat.com/contrats-commerciaux-cgv/contrats-commerciaux/smart-contract-definition-et-fonctionnement-me-beaubourg-avocats</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-07 16:05:09</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_74">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/74/smart-contract-definition-et-fonctionnement-me-beaubourg-avocats.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.captaincontrat.com/contrats-commerciaux-cgv/contrats-commerciaux/smart-contract-definition-et-fonctionnement-me-beaubourg-avocats</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-07 16:05:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.kraken.com/fr/learn/what-are-smart-contracts">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_77"/>
+        <link:link rdf:resource="#item_76"/>
+        <dc:title>Que sont les contrats intelligents ? | Les contrats intelligents expliqués | Kraken</dc:title>
+        <dcterms:abstract>Découvrez les contrats intelligents, leur fonctionnement, leurs avantages et la manière dont ils sont utilisés dans la technologie de la blockchain pour des transactions plus sécurisées et efficaces.</dcterms:abstract>
+        <dc:date>02/12/2024</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>Que sont les contrats intelligents ?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.kraken.com/fr/learn/what-are-smart-contracts</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-08 21:30:06</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_77">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&quot;&lt;em&gt;un ensemble de promesses, spécifiées sous forme numérique, comprenant les protocoles dans le cadre desquels les parties exécutent d’autres promesses&lt;/em&gt;&quot;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_76">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/76/what-are-smart-contracts.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.kraken.com/fr/learn/what-are-smart-contracts</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-08 21:30:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Ethereum">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_83"/>
+        <dc:title>Ethereum</dc:title>
+        <dcterms:abstract>Ethereum (prononcé en français /etɛʁeɔm/, en anglais /ɪˈθɪrɪəm/ ) est un protocole d'échanges décentralisés permettant la création par les utilisateurs de contrats intelligents. Ces contrats intelligents sont basés sur un protocole informatique permettant de vérifier ou de mettre en application un contrat mutuel. Ils sont déployés et consultables publiquement dans une blockchain.
+Ethereum utilise une unité de compte dénommée Ether comme moyen de paiement de ces contrats. Son sigle correspondant, utilisé par les plateformes d'échanges, est « ETH ». Ethereum est la deuxième plus importante monnaie cryptographique décentralisée avec une capitalisation supérieure à 448 milliards d'euros en octobre 2021.
+En juillet 2016, l'équipe de développement d'Ethereum a dû procéder à un hard fork après une attaque réussie par un groupe de pirates sur un fonds d'investissement en Ether appelé The DAO (organisation autonome décentralisée) dans laquelle près de 3 641 694 ETH (soit plus de 5 % du montant total de la crypto-monnaie en circulation) ont été détournés sur une adresse non contrôlée par les membres de The DAO. Ce hard fork a permis d'annuler le détournement et de restituer ses fonds à l'organisation autonome décentralisée. Néanmoins, ce changement n'a pas recueilli un consensus absolu et une faible partie de la communauté n'a pas implémenté ce changement qui a conduit à la formation de deux chaînes de blocs séparées : l'une officielle avec pour unité monétaire l'Ether (symbole : ETH) et son spin-off avec pour unité monétaire l'Ether classique (en) (symbole : ETC).
+Comme d'autres crypto-monnaies basées sur la technologie de la Blockchain, Ethereum a été critiquée pour son empreinte carbone très élevée,. 
+Afin de réduire considérablement son empreinte carbone, le 15 septembre 2022, Ethereum a accompli la transition de son mécanisme de validation d'une preuve de travail vers une preuve d'enjeu, dans une mise à jour majeure connue sous le nom de &quot;The Merge&quot; / &quot;La Fusion&quot;,,; la consommation énergétique d'Ethereum a alors chuté d'environ 99,95%.</dcterms:abstract>
+        <dc:date>2025-01-22T08:23:15Z</dc:date>
+        <z:language>fr</z:language>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://fr.wikipedia.org/wiki/Ethereum</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 13:05:58</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:description>Page Version ID: 222302251</dc:description>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_83">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/83/Ethereum.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://fr.wikipedia.org/wiki/Ethereum</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 13:06:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://cryptoast.fr/fiche-ethereum/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Cryptoast</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bourbotte</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_86"/>
+        <link:link rdf:resource="#item_85"/>
+        <dc:title>C'est quoi Ethereum ? Nos explications pour tout savoir sur cette blockchain et sa cryptomonnaie ETH</dc:title>
+        <dcterms:abstract>Ethereum (ETH) est une blockchain permettant qui permet de développer des services décentralisés comme des applications et dont la cryptomonnaie est l'ether</dcterms:abstract>
+        <dc:date>2024-12-20T09:00:26+00:00</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>C'est quoi Ethereum ?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://cryptoast.fr/fiche-ethereum/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 22:22:07</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_86">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;“&lt;em&gt;L'objectif d'Ethereum est de créer un autre protocole pour développer des applications décentralisées, en offrant un ensemble différent de compromis qui sera, nous le pensons, très utile pour une large gamme d'applications décentralisées. Il sera principalement axé sur les situations dans lesquelles le développement rapide, la sécurité des petites applications rarement utilisées et la possibilité pour les différentes applications d'interagir ensemble de façon très efficace sont importants.&lt;/em&gt;”&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_85">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/85/fiche-ethereum.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://cryptoast.fr/fiche-ethereum/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 22:22:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/9667515/?arnumber=9667515">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2169-3536"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kushwaha</foaf:surname>
+                        <foaf:givenName>Satpal Singh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joshi</foaf:surname>
+                        <foaf:givenName>Sandeep</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenName>Dilbag</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaur</foaf:surname>
+                        <foaf:givenName>Manjit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Heung-No</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_89"/>
+        <link:link rdf:resource="#item_88"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Blockchain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Blockchains</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Codes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>decentralized</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ethereum</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Libraries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Programming</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Security</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>security analysis tool</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>smart contract</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Smart contracts</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Systematics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>vulnerabilities</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Systematic Review of Security Vulnerabilities in Ethereum Blockchain Smart Contract</dc:title>
+        <dcterms:abstract>Blockchain is a revolutionary technology that enables users to communicate in a trust-less manner. It revolutionizes the modes of business between organizations without the need for a trusted third party. It is a distributed ledger technology based on a decentralized peer-to-peer (P2P) network. It enables users to store data globally on thousands of computers in an immutable format and empowers users to deploy small pieces of programs known as smart contracts. The blockchain-based smart contract enables auto enforcement of the agreed terms between two untrusted parties. There are several security vulnerabilities in Ethereum blockchain-based smart contracts, due to which sometimes it does not behave as intended. Because a smart contract can hold millions of dollars as cryptocurrency, so these security vulnerabilities can lead to disastrous losses. In this paper, a systematic review of the security vulnerabilities in the Ethereum blockchain is presented. The main objective is to discuss Ethereum smart contract security vulnerabilities, detection tools, real life attacks and preventive mechanisms. Comparisons are drawn among the Ethereum smart contract analysis tools by considering various features. From the extensive depth review, various issues associated with the Ethereum blockchain-based smart contract are highlighted. Finally, various future directions are also discussed in the field of the Ethereum blockchain-based smart contract that can help the researchers to set the directions for future research in this domain.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9667515/?arnumber=9667515</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 22:56:27</dcterms:dateSubmitted>
+        <dc:description>Conference Name: IEEE Access</dc:description>
+        <bib:pages>6605-6621</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2169-3536">
+        <prism:volume>10</prism:volume>
+        <dc:title>IEEE Access</dc:title>
+        <dc:identifier>DOI 10.1109/ACCESS.2021.3140091</dc:identifier>
+        <dc:identifier>ISSN 2169-3536</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_89">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/89/Kushwaha et al. - 2022 - Systematic Review of Security Vulnerabilities in Ethereum Blockchain Smart Contract.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=9667515&amp;ref=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 22:56:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_88">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/88/9667515.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9667515/?arnumber=9667515</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-10 22:56:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/nodes-and-clients/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Nœuds et clients</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_91"/>
+        <link:link rdf:resource="#item_92"/>
+        <dc:title>Nœuds et clients</dc:title>
+        <dcterms:abstract>Présentation des nœuds Ethereum et des logiciels clients, de la façon de configurer un nœud et des raisons de le faire.</dcterms:abstract>
+        <dc:date>09/10/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/nodes-and-clients/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 12:13:07</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_91">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Les différents langages de programmation des clients Ethereum&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_92">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/92/nodes-and-clients.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/nodes-and-clients/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 12:14:12</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/intro-to-ether/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_94"/>
+        <dc:title>Introduction à l'ether</dc:title>
+        <dcterms:abstract>Une introduction pour développeur à la cryptomonnaie ether.</dcterms:abstract>
+        <dc:date>13/12/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/intro-to-ether/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 14:07:16</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_94">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/94/intro-to-ether.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/intro-to-ether/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 14:07:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/smart-contracts/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_96"/>
+        <dc:title>Introduction aux contrats intelligents</dc:title>
+        <dcterms:abstract>Présentation des contrats intelligents, axée sur leurs caractéristiques uniques et leurs limites</dcterms:abstract>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/smart-contracts/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 14:59:05</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_96">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/96/smart-contracts.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/smart-contracts/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 14:59:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/dapps/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_98"/>
+        <dc:title>Introduction aux dApps</dc:title>
+        <dcterms:abstract>Ethereum est une plateforme monétaire globale et décentralisée qui propose également de nouveaux types d'applications. Sur Ethereum, vous pouvez écrire du code qui contrôle de la monnaie, et construire des applications accessibles partout dans le monde.</dcterms:abstract>
+        <dc:date>23/04/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/dapps/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 15:54:38</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_98">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/98/dapps.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/dapps/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 15:54:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/evm/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_102"/>
+        <dc:title>Machine virtuelle Ethereum (EVM)</dc:title>
+        <dcterms:abstract>Introduction à la machine virtuelle Ethereum et en quoi elle concerne l'état, les transactions et les contrats intelligents.</dcterms:abstract>
+        <dc:date>13/12/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ethereum.org/fr/developers/docs/evm/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 19:39:46</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_102">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/102/evm.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ethereum.org/fr/developers/docs/evm/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 19:39:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takenobu</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_105"/>
+        <link:link rdf:resource="#item_103"/>
+        <dc:title>Ethereum EVM illustrated</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12</dcterms:dateSubmitted>
+        <bib:pages>116</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_105">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Schéma détaillé de l’EVM&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_103">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/103/ethereum-evm-illustrated.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 19:40:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/accounts/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_107"/>
+        <dc:title>Comptes Ethereum</dc:title>
+        <dcterms:abstract>Explication des comptes Ethereum – leurs structures de données et leur relation avec la cryptographie asymétrique.</dcterms:abstract>
+        <dc:date>04/07/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/accounts/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 21:00:08</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_107">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/107/accounts.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/accounts/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-12 21:00:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/transactions/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_109"/>
+        <dc:title>Transactions</dc:title>
+        <dcterms:abstract>Présentation des transactions Ethereum : leur fonctionnement, leur structure de données et comment les envoyer via une application.</dcterms:abstract>
+        <dc:date>11/08/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/transactions/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-15 12:35:21</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_109">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/109/transactions.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/transactions/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-15 12:35:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/gas/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_111"/>
+        <dc:title>Gaz et frais</dc:title>
+        <dcterms:abstract>Ethereum est une plateforme monétaire globale et décentralisée qui propose également de nouveaux types d'applications. Sur Ethereum, vous pouvez écrire du code qui contrôle de la monnaie, et construire des applications accessibles partout dans le monde.</dcterms:abstract>
+        <dc:date>14/01/2025</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ethereum.org/fr/developers/docs/gas/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-15 13:44:38</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_111">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/111/gas.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ethereum.org/fr/developers/docs/gas/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-15 13:44:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org/fr/developers/docs/blocks/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ethereum.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Blocs</dc:title>
+        <dcterms:abstract>Présentation des blocs de la blockchain Ethereum, leur structure de données, pourquoi ils sont nécessaires et comment ils sont créés.</dcterms:abstract>
+        <dc:date>26/05/2024</dc:date>
+        <z:language>fr</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ethereum.org/fr/developers/docs/blocks/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-17 14:36:55</dcterms:dateSubmitted>
+    </bib:Document>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_116"/>
+        <dc:title>Signature numérique</dc:title>
+        <dcterms:abstract>La signature numérique ou signature électronique est un mécanisme permettant d'authentifier l'auteur d'un document électronique et d'en garantir la non-répudiation, par analogie avec la signature manuscrite d'un document papier.
+Elle se différencie de la signature écrite par le fait qu'elle n'est pas visuelle, mais correspond à une suite de caractères. Elle ne doit pas être confondue avec la signature électronique manuscrite.</dcterms:abstract>
+        <dc:date>2024-10-21T15:01:10Z</dc:date>
+        <z:language>fr</z:language>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-21 10:56:13</dcterms:dateSubmitted>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:description>Page Version ID: 219637286</dc:description>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_116">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/116/Signature_numérique.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-21 10:56:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/dematerialisation-des-documents/la-signature">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Num</foaf:surname>
+                        <foaf:givenName>France</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_118"/>
+        <dc:title>La signature électronique : un outil devenu incontournable - francenum.gouv.fr</dc:title>
+        <dcterms:abstract>Le développement du télétravail et la nécessité de gagner en efficacité et en rapidité rendent la faculté de signer à distance désormais indispensable au bon fonctionnement de l'entreprise. La signature électronique permet en effet de signer instantanément, où que l'on soit, la quasi totalité des actes administratifs ou commerciaux. Suivez le guide !</dcterms:abstract>
+        <dc:date>07/12/2020</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>La signature électronique</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/dematerialisation-des-documents/la-signature</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-21 12:24:28</dcterms:dateSubmitted>
+        <dc:description>Archive Location: Toutes les régions
+Publisher: Direction générale des entreprises</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_118">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/118/la-signature.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/dematerialisation-des-documents/la-signature</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-21 12:24:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/hachage/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>IONOS Digital Guide</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_120"/>
+        <dc:title>Hashing : voici comment fonctionne le hachage</dc:title>
+        <dcterms:abstract>Le hachage est utilisé pour l’authentification et le stockage sécurisé des données. Voici comment fonctionne le hachage.</dcterms:abstract>
+        <dc:date>2023-02-22</dc:date>
+        <z:language>fr</z:language>
+        <z:shortTitle>Hashing</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ionos.fr/digitalguide/sites-internet/developpement-web/hachage/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-24 11:55:34</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_120">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/120/hachage.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ionos.fr/digitalguide/sites-internet/developpement-web/hachage/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-24 11:55:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://evidency.io/horodatage-electronique-definition-et-fonctionnement/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Evidency</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blancher</foaf:surname>
+                        <foaf:givenName>Rémi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_123"/>
+        <link:link rdf:resource="#item_122"/>
+        <dc:title>Horodatage électronique : définition et fonctionnement</dc:title>
+        <dcterms:abstract>Découvrez ce qu'est l'horodatage électronique, son fonctionnement et pourquoi l'utiliser. Solution pour prouver l'existence de données spécifiques à une date et une heure précises.</dcterms:abstract>
+        <dc:date>2024-05-27T14:19:00+00:00</dc:date>
+        <z:language>fr-FR</z:language>
+        <z:shortTitle>Horodatage électronique</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://evidency.io/horodatage-electronique-definition-et-fonctionnement/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-24 14:03:10</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_123">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;“&lt;em&gt;mécanisme associant une représentation de données à un instant donné et attestant de l’existence de la représentation de ces données à cet instant au moyen d’un jeton d’horodatage [qui] comporte un cachet du prestataire d’horodatage électronique établi à partir des données de signature du jeton d’horodatage&lt;/em&gt;”&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_122">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/122/horodatage-electronique-definition-et-fonctionnement.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://evidency.io/horodatage-electronique-definition-et-fonctionnement/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-24 14:03:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.axemtec.com/rfid-vs-qr-code-whats-the-difference-which-one-is-better-for-your-business/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>https://www.axemtec.com/</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_125"/>
+        <dc:title>AXEM Technology | Quelle est la différence entre la RFID et le code QR ? Quelle est la meilleure solution pour votre activité ?</dc:title>
+        <dcterms:abstract>RFID ou QR code : quelle est la différence ? Quelle est la meilleure solution pour votre activité ?   La RFID (identification par radiofréquence) et les QR codes sont des technologies utilisées pour le suivi des biens et la gestion des stocks. Ces technologies sont appliquées dans de nombreux…</dcterms:abstract>
+        <dc:date>07/12/2022</dc:date>
+        <z:language>fr_FR</z:language>
+        <z:shortTitle>AXEM Technology | Quelle est la différence entre la RFID et le code QR ?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.axemtec.com/rfid-vs-qr-code-whats-the-difference-which-one-is-better-for-your-business/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-25 15:48:04</dcterms:dateSubmitted>
+        <dc:description>Section: Actus AXEM</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_125">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/125/rfid-vs-qr-code-whats-the-difference-which-one-is-better-for-your-business.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.axemtec.com/rfid-vs-qr-code-whats-the-difference-which-one-is-better-for-your-business/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-25 15:48:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://itemit.com/qr-vs-rfid-which-is-better/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>itemit</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_127"/>
+        <dc:title>QR vs. RFID, which is better? Find out which asset tags to use.</dc:title>
+        <dcterms:abstract>Thinking about using QR or RFID tags to make your life a bit quicker and a bit easier? Which one is better? Find out more here.</dcterms:abstract>
+        <dc:date>2018-11-06T11:11:53+00:00</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>QR vs. RFID, which is better?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://itemit.com/qr-vs-rfid-which-is-better/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-25 15:53:30</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_127">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/127/qr-vs-rfid-which-is-better.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://itemit.com/qr-vs-rfid-which-is-better/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-25 15:53:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
