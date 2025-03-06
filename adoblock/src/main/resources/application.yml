@@ -1,0 +1,63 @@
+## YAML Template.
+---
+server:
+  port: 8080
+
+---
+spring:
+  application:
+    name: ADOBLOCK
+  # config db connexion
+  session.store-type: jdbc
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+    hibernate:
+      ddl-auto: update
+      jdbc.lob.non_contextual_creation: true
+      default_schema: public
+  datasource:
+    #gestion de pool de connexion : driver-class-name et hikari
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      # Maintenir au moins 2 connexions disponibles.
+      minimumIdle: 2
+      # Capacité maximale de pool à gérer les pics de charge.
+      maximumPoolSize: 20
+      # 120000ms=2mn, 300000ms=5mn pour réduire la fréquence des fermetures et réouvertures.
+      idleTimeout: 300000
+      # Temps max d’attente pour une connexion disponible (300000ms=300s=5mn).
+      connectionTimeout: 300000
+      # Détecte les connexions oubliées après 50 minutes.
+      leakDetectionThreshold: 3000000
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/adoblock
+    username: postgres
+    password: admin
+  profiles:
+    active: dev
+  devtools:
+    restart:
+      enabled: true
+      additional-exclude: .h2.server.properties
+  servlet:
+    multipart:
+      enabled: true
+      #file-size-threshold: 2KB
+      max-file-size: 3500KB
+      max-request-size: 35000KB
+---
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+---
+#log app
+logging:
+  level:
+    ROOT: INFO
+    bf.canisiuslab.adoblock:
+      - DEBUG
+      - INFO
