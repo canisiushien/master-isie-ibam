@@ -1,9 +1,11 @@
 package bf.canisiuslab.adoblock.service;
 
-import bf.canisiuslab.adoblock.service.dto.KeysPair;
+import bf.canisiuslab.adoblock.service.dto.KeysPairDTO;
+import bf.canisiuslab.adoblock.service.dto.ResponseVerifDTO;
+
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
+import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 /**
@@ -17,39 +19,28 @@ public interface MainService {
      *
      * @return
      */
-    KeysPair generateKeysPair() throws NoSuchAlgorithmException;
+    KeysPairDTO generateKeysPair() throws NoSuchAlgorithmException;
 
     /**
-     * extrait du texte brut dans un fichier .pdf
-     *
-     * @param file
+     * enregistre un document administratif dans la blockchain Ethereum
+     * 
+     * @param digitalDocument
+     * @param privateKey
+     * @param publicKey
      * @return
+     * @throws InvalidKeyException
+     * @throws Exception
      */
-    String extractTextFromPdf(MultipartFile file) throws IOException;
-
-    /**
-     * extrait du texte brut dans un fichier .docx
-     *
-     * @param file
-     * @return
-     */
-    String extractTextFromWord(MultipartFile file) throws IOException;
-
-    /**
-     *
-     * @param content
-     * @param hash
-     * @param fileName
-     */
-    void saveDocument(String content, String hash, String fileName);
+    String addDocumentToBlockchain(MultipartFile digitalDocument, String privateKeyEncoded, String publicKeyEncoded)
+            throws InvalidKeyException, Exception;
 
     /**
      * extrait du texte brut dans un fichier, calcule le hash et verifie que
      * fichier en question est valide
      *
-     * @param file
+     * @param digitalDocument
      * @return
-     * @throws IOException
+     * @throws InvalidKeyException
      */
-    String verifyTextFromFile(MultipartFile file) throws IOException;
+    ResponseVerifDTO verifyDocumentFromBlockchain(MultipartFile digitalDocument) throws InvalidKeyException;
 }

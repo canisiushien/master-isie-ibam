@@ -5,7 +5,6 @@
 package bf.canisiuslab.adoblock.service.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -21,7 +20,7 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class KeysPair {
+public class KeysPairDTO {
 
     private String typeKey; // type d'algo cryptographique
 

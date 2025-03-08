@@ -1,11 +1,10 @@
 package bf.canisiuslab.adoblock.controller;
 
+import java.io.IOException;
+import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
-import java.util.HashMap;
-import java.util.Map;
 
 import bf.canisiuslab.adoblock.service.dto.KeysPair;
-import bf.canisiuslab.adoblock.utils.HashUtil;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -43,58 +42,37 @@ public class MainController {
     }
 
     /**
-     *
-     * @param file
+     * enregistre un document administratif sur la blockchain
+     * 
+     * 
+     * @param documentAdministratif
      * @return
+     * @throws Exception
+     * @throws InvalidKeyException
      */
-    @PostMapping(value = "/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public ResponseEntity<?> uploadFile(@RequestParam("file") MultipartFile file) {
-        try {
-            String fileType = file.getContentType();
-            String content, hash;
+    @PostMapping(value = "/add-to-blockchain", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<?> saveDocumentToEthereum(@RequestParam("file") MultipartFile documentAdministratif,
+            @RequestParam("privateKey") String privateKey, @RequestParam("publicKey") String publicKey)
+            throws InvalidKeyException, Exception {
 
-            if (fileType.equals(HashUtil.PDF_TYPE)) {
-                content = service.extractTextFromPdf(file);
-            } else if (fileType.equals(HashUtil.WORD_TYPE)) {
-                content = service.extractTextFromWord(file);
-            } else {
-                return ResponseEntity.badRequest().body("Type de fichier non supporté");
-            }
-
-            // calcul de l'empreinte numerique
-            hash = HashUtil.calculateSHA256(content);
-
-            // persistance en base
-            service.saveDocument(content, hash, file.getOriginalFilename());
-
-            // Convert to JSON
-            Map<String, String> response = new HashMap<>();
-            response.put("content", content);
-            response.put("hash", hash);
-
-            return ResponseEntity.ok(response);
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body("Erreur suivenue dans le traitement du fichier.");
-        }
+        return ResponseEntity.status(HttpStatus.CREATED)
+                .body(service.addDocumentToBlockchain(documentAdministratif, privateKey, publicKey));
     }
 
     /**
-     *
+     * vérifie l'authenticité d'un document administratif depuis la blockchain
+     * 
      * @param file
      * @return
+     * @throws IOException
+     * @throws InvalidKeyException
      */
-    @PostMapping(value = "/verif", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public ResponseEntity<?> verifFile(@RequestParam("file") MultipartFile file) {
-        try {
-            String response;
+    @PostMapping(value = "/verify-from-blockchain", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<?> authenticateDocumentFromEthereum(@RequestParam("file") MultipartFile file)
+            throws IOException, InvalidKeyException {
 
-            response = service.verifyTextFromFile(file);
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(service.verifyDocumentFromBlockchain(file));
 
-            return ResponseEntity.ok(response);
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body("Erreur suivenue dans le traitement du fichier.");
-        }
     }
 }
