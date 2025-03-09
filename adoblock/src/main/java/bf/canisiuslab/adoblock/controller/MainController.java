@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
-import bf.canisiuslab.adoblock.service.dto.KeysPair;
+import bf.canisiuslab.adoblock.service.dto.KeysPairDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +17,12 @@ import bf.canisiuslab.adoblock.service.MainService;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- *
+ * Controller principal d'API REST.
+ * 
+ * **API de generation de paire de cles cryptographiques
+ * **API d'enregistrement de doc admin sur Ethereum
+ * **API de verification de l'authenticite d'un doc admin
+ * 
  * @author Canisius <canisiushien@gmail.com>
  */
 @RestController
@@ -37,7 +42,7 @@ public class MainController {
      * @throws NoSuchAlgorithmException
      */
     @GetMapping(path = "/generate-keys")
-    public ResponseEntity<KeysPair> getKeysPair() throws NoSuchAlgorithmException {
+    public ResponseEntity<KeysPairDTO> getKeysPair() throws NoSuchAlgorithmException {
         return ResponseEntity.status(HttpStatus.OK).body(service.generateKeysPair());
     }
 

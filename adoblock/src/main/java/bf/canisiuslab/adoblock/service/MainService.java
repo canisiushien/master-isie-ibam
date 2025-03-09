@@ -9,7 +9,8 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 /**
- *
+ * Prototypage des services de logique metier
+ * 
  * @author Canisius <canisiushien@gmail.com>
  */
 public interface MainService {

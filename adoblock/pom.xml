@@ -104,6 +104,7 @@
     </dependencies>
 
     <build>
+        <!-- alias de compilation -->
         <defaultGoal>clean spring-boot:run</defaultGoal>
         <plugins>
             <!-- Compiler Plugin -->

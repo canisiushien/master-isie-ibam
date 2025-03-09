@@ -20,21 +20,33 @@ import lombok.ToString;
 @NoArgsConstructor
 public class ResponseVerifDTO {
 
-    private boolean isAuthenticated = false; // le doc est-il valide/authentique ?
+    /** le doc est-il valide/authentique ? */
+    private Boolean authenticated;
 
-    private boolean isIntegrated = true; // le contenu du doc est-il au moins integre ?
+    /** le contenu du doc est-il au moins integre ? */
+    private Boolean integrated;
 
-    private String dateAddToEthereum; // date a laquelle le document a ete ajoute a la blockchain (horodatage)
+    /** date a laquelle le document a ete ajoute a la blockchain (horodatage) */
+    private Long horodatage;
 
-    private String fileName; // nom du fichier soumis a authentification (Document numetique)
+    /** nom du fichier soumis a authentification (Document numetique) */
+    private String fileName;
 
-    private String docHashed; // l'empreinte numerique du doc. Ce hash est encode en base64 (Empreinte
-                              // numerique du document)
-    private Instant requestDate; // date de demande d'authentification (Date de demande)
+    /**
+     * l'empreinte numerique du doc. Ce hash est encode en base64 (Empreinte
+     * numerique du document)
+     */
+    private String docHashed;
 
-    private String typeKey; // type d'algo cryptographique
+    /** date de demande d'authentification (Date de demande) */
+    private Instant requestDate;
 
-    private String ellipticCurve; // courbe elliptique
+    /** type d'algo cryptographique */
+    private String typeKey;
 
-    private String publicKey; // cle publique associee
+    /** courbe elliptique */
+    private String ellipticCurve;
+
+    /** cle publique associee */
+    private String publicKey;
 }

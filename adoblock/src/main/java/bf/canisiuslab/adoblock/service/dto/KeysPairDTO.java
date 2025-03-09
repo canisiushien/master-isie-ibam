@@ -22,11 +22,15 @@ import lombok.ToString;
 @NoArgsConstructor
 public class KeysPairDTO {
 
-    private String typeKey; // type d'algo cryptographique
+    /** type d'algo cryptographique */
+    private String typeKey;
 
-    private String ellipticCurve; // courbe elliptique
+    /** courbe elliptique */
+    private String ellipticCurve;
 
-    private String privateKey; // clé privée
+    /** clé privée */
+    private String privateKey;
 
-    private String publicKey; // clé publique
+    /** clé publique */
+    private String publicKey;
 }

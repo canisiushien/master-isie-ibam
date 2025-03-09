@@ -31,7 +31,6 @@ spring:
       connectionTimeout: 300000
       # Détecte les connexions oubliées après 50 minutes.
       leakDetectionThreshold: 3000000
-    platform: postgres
     url: jdbc:postgresql://localhost:5432/adoblock
     username: postgres
     password: admin
@@ -47,6 +46,25 @@ spring:
       #file-size-threshold: 2KB
       max-file-size: 3500KB
       max-request-size: 35000KB
+  sql:
+    init:
+      platform: postgres
+---
+#CONFIG BLOCKCHAIN ETHEREUM
+# api-key : URL de l'API INFURA (si on deploie sur le réseau public Sepolia)
+# rpc-url : URL RPC de Ganache (si on utilise Ganache pour tests)
+# private-key : Clé privée du compte Ethereum (récupérée depuis Ganache)
+# address : ADDRESS du contrat intelligent une fois deployé sur la blockchain
+# ON NE PEUT UTILISER SIMULTANEMENT api-key et rpc-url
+ethereum:
+  sepolia:
+    web3j.api-key: https://sepolia.infura.io/v3/VOTRE_INFURA_API_KEY
+  ganache:
+    rpc-url: http://localhost:8545
+    private-key: 0xTaClePrivee
+  smartcontract:
+    address: 0xAdresseContrat
+
 ---
 management:
   endpoints:
@@ -58,6 +76,6 @@ management:
 logging:
   level:
     ROOT: INFO
-    bf.canisiuslab.adoblock:
-      - DEBUG
-      - INFO
+    bf.canisiuslab.adoblock: DEBUG
+#      - DEBUG
+#      - INFO
