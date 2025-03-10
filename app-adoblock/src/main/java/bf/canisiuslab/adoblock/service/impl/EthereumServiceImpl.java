@@ -13,6 +13,7 @@ import java.math.BigInteger;
 
 import bf.canisiuslab.adoblock.service.EthereumService;
 import bf.canisiuslab.adoblock.service.dto.DocumentETH;
+import bf.canisiuslab.adoblock.service.dto.ResponseAddDTO;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -71,22 +72,47 @@ public class EthereumServiceImpl implements EthereumService {
      * @param hashEncoded       Hachage du document (SHA-256)
      * @param signedHashEncoded Signature du hachage avec la clé privée
      * @param publicKeyEncoded  Clé publique associée
-     * @return Hash de la transaction
+     * @return Hash de la transaction + d'autres elements
      * @throws Exception en cas d'erreur d'exécution
      */
     @Override
-    public String storeDocument(String hashEncoded, String signedHashEncoded, String publicKeyEncoded)
+    public ResponseAddDTO storeDocument(String hashEncoded, String signedHashEncoded, String publicKeyEncoded)
             throws Exception {
         log.info("Appel de la fonction storeDocument du smart contract");
         // Appel de la fonction storeDocument du smart contract
         RemoteFunctionCall<TransactionReceipt> transaction = contract.storeAdministrativeDocument(hashEncoded,
                 signedHashEncoded,
                 publicKeyEncoded);
-        // Envoie de la transaction et récupération du reçu
+        /*
+         * Demande de transaction et récupération du reçu (l'evenement emis depuis le
+         * contrat intelligent)
+         */
         TransactionReceipt receipt = transaction.send();
 
-        // Retourne l'ID de la transaction blockchain
-        return receipt.getTransactionHash();
+        // construction de l'objet reponse a retourner a l'utilisateur
+        ResponseAddDTO response = new ResponseAddDTO();
+        // l'ID de la transaction blockchain
+        response.setIdTransaction(receipt.getTransactionHash());
+        // le numero du block contenant la transaction
+        response.setNumeroBlock(receipt.getBlockNumber());
+        // l'adresse du contrat intelligent
+        response.setAddressContrat(receipt.getContractAddress());
+        /*
+         * la somme totale du gas utilisé par la transaction et par toutes les
+         * transactions précédentes incluses dans le même bloc
+         */
+        response.setTotalBlockGasUtilise(receipt.getCumulativeGasUsed());
+        /*
+         * le prix réel du gas payé par l’utilisateur pour cette transaction.
+         * effectiveGasPrice (ETH par unité de gas) = baseFeePerGas + priorityFeePerGas
+         */
+        response.setPrixReelTransaction(receipt.getEffectiveGasPrice());
+        /* la quantite de gas réellement consommée pour exécuter la transaction */
+        response.setTotalTransactionGasUtilise(receipt.getGasUsed());
+        // l'etat d'execution de la transaction
+        response.setStatut(receipt.getStatus());
+
+        return response;
     }
 
     /**

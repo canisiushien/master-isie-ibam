@@ -9,7 +9,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * DTO pour la paire de clés
+ * DTO pour le resultat de verification d'authenticite
  *
  * @author Canisius <canisiushien@gmail.com>
  */

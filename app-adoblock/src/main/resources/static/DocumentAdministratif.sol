@@ -20,7 +20,7 @@ contract DocumentAdministratif {
         uint256 timestamp; //date et heure(horodatage) de stockage du document dans la blockchain
     }
 
-    //mappage de la structure du document avec une chaine
+    //mappage(appele "documents") de la structure du document avec une chaine (le hash)
     mapping(string => Document) private documents;
 
     //creation d'un evenement d'indexage (tel hash+horodatage correspond a tel ensemble de donnees w = signedHashEncoded+publicKeyEncoded)
@@ -31,6 +31,7 @@ contract DocumentAdministratif {
         //controle de doublons de hash dans le stockage
         require(bytes(documents[_hashEncoded].hashEncoded).length == 0, "Ce document existe deja dans la blockchain.");
 
+        //stocke le document dans une map
         documents[_hashEncoded] = Document({
             hashEncoded: _hashEncoded,
             signedHashEncoded: _signedHashEncoded,
@@ -43,7 +44,7 @@ contract DocumentAdministratif {
         console.log("_publicKeyEncoded = ", _publicKeyEncoded);
         console.log("timestamp = ", block.timestamp);
 
-
+        //emettre l'evenement a l'attention des utilisateurs
         emit DocumentStored(_hashEncoded, block.timestamp);
     }
 

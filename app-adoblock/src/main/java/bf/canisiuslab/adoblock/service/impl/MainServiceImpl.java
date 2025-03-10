@@ -22,6 +22,7 @@ import bf.canisiuslab.adoblock.service.EthereumService;
 import bf.canisiuslab.adoblock.service.MainService;
 import bf.canisiuslab.adoblock.service.dto.DocumentETH;
 import bf.canisiuslab.adoblock.service.dto.KeysPairDTO;
+import bf.canisiuslab.adoblock.service.dto.ResponseAddDTO;
 import bf.canisiuslab.adoblock.service.dto.ResponseVerifDTO;
 
 /**
@@ -89,7 +90,7 @@ public class MainServiceImpl implements MainService {
      * @throws InvalidKeyException en cas d'erreur d'exécution
      */
     @Override
-    public String addDocumentToBlockchain(MultipartFile digitalDocument, String privateKeyEncoded,
+    public ResponseAddDTO addDocumentToBlockchain(MultipartFile digitalDocument, String privateKeyEncoded,
             String publicKeyEncoded)
             throws InvalidKeyException, Exception {
         log.info("Enregistrement du document {} dans la blockchain", digitalDocument.getOriginalFilename());
@@ -104,7 +105,7 @@ public class MainServiceImpl implements MainService {
          * la transaction de stockage blockchain
          */
         String content;
-        String response;
+        ResponseAddDTO response = new ResponseAddDTO();
         /** récuperation de l'extension du fichier */
         String fileType = digitalDocument.getContentType();
         Instant horodatage = new Date().toInstant();

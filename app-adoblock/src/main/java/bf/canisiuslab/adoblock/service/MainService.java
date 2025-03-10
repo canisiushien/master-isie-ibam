@@ -1,6 +1,7 @@
 package bf.canisiuslab.adoblock.service;
 
 import bf.canisiuslab.adoblock.service.dto.KeysPairDTO;
+import bf.canisiuslab.adoblock.service.dto.ResponseAddDTO;
 import bf.canisiuslab.adoblock.service.dto.ResponseVerifDTO;
 
 import org.springframework.web.multipart.MultipartFile;
@@ -32,7 +33,8 @@ public interface MainService {
      * @throws InvalidKeyException
      * @throws Exception
      */
-    String addDocumentToBlockchain(MultipartFile digitalDocument, String privateKeyEncoded, String publicKeyEncoded)
+    ResponseAddDTO addDocumentToBlockchain(MultipartFile digitalDocument, String privateKeyEncoded,
+            String publicKeyEncoded)
             throws InvalidKeyException, Exception;
 
     /**
