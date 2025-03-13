@@ -5,9 +5,9 @@
     "description": "Une description pour 'ethereum.sepolia.web3j.api-key'"
   },
   {
-    "name": "ethereum.ganache.rpc-url",
+    "name": "ethereum.ganache.rpc-server-url",
     "type": "java.lang.String",
-    "description": "Une description pour 'ethereum.ganache.rpc-url'"
+    "description": "Une description pour 'ethereum.ganache.rpc-server-url'"
   },
   {
     "name": "ethereum.ganache.private-key",
@@ -15,9 +15,9 @@
     "description": "Une description pour 'ethereum.ganache.private-key'"
   },
   {
-    "name": "ethereum.smartcontract.address",
+    "name": "ethereum.ganache.account.address",
     "type": "java.lang.String",
-    "description": "Une description pour 'ethereum.smartcontract.address'"
+    "description": "Une description pour 'ethereum.ganache.account.address'"
   },
   {
     "name": "management.endpoints.web.exposure.include",

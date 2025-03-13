@@ -51,19 +51,19 @@ spring:
       platform: postgres
 ---
 #CONFIG BLOCKCHAIN ETHEREUM
-# api-key : URL de l'API INFURA (si on deploie sur le réseau public Sepolia)
-# rpc-url : URL RPC de Ganache (si on utilise Ganache pour tests)
+# api-key : URL de l'API INFURA (si on deploie sur le réseau public Sepolia). infura est un fournisseur de noeuds. Il permet au dApp de communiquer avec ethereum.
+# rpc-server-url : URL RPC de Ganache (si on utilise Ganache pour tests)
 # private-key : Clé privée du compte Ethereum (récupérée depuis Ganache)
 # address : ADDRESS du contrat intelligent une fois deployé sur la blockchain
-# ON NE PEUT UTILISER SIMULTANEMENT api-key et rpc-url
+# ON NE PEUT UTILISER SIMULTANEMENT api-key et rpc-server-url
 ethereum:
   sepolia:
     web3j.api-key: https://sepolia.infura.io/v3/VOTRE_INFURA_API_KEY
   ganache:
-    rpc-url: http://localhost:8545
-    private-key: 0xTaClePrivee
-  smartcontract:
-    address: 0xAdresseContrat
+    rpc-server-url: http://127.0.0.1:7545
+    private-key: 0x035e7ab4cb316b279b8cf7405c48b4f87a58dff9041862aa944a2d927bcb68a3
+    account:
+      address: 0x28Bc4E864BB2e0E966418D6F4b8Cb24Bd9fbA994
 
 ---
 management:

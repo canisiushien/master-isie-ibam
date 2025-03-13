@@ -29,12 +29,12 @@ public class EthereumServiceImpl implements EthereumService {
     @Value("${ethereum.ganache.private-key}")
     private String privateKey;
 
-    /** Adresse du contrat intelligent (DocumentRegistry) déployé */
-    @Value("${ethereum.smartcontract.address}")
+    /** Adresse du compte contrat intelligent (DocumentRegistry) déployé */
+    @Value("${ethereum.ganache.account.address}")
     private String contratAddress;
 
     /** URL RPC de Ganache */
-    @Value("${ethereum.ganache.rpc-url}")
+    @Value("${ethereum.ganache.rpc-server-url}")
     private String rpcUrl;
 
     /** 2 Gwei = frais de gas */
