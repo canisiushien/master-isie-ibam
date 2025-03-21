@@ -1,0 +1,113 @@
+21012025
+
+FORMATION DEVELOPPEUR BLOCKCHAIN : https://www.youtube.com/playlist?list=PL86X3phnUk6uLmPP6YxXaOxOj8CrBLlc9
+IDE en ligne : remix ethereum ide (https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.26+commit.8a97fa7a.js)
+Implementer + compiler + deployer + utiliser le contrat intelligent
+
+PRISE EN MAIN DE SOLIDITY
+les variables :
+int : enrier numérique (possitif et négatif)
+uint = uint256 : entier possitif
+uint8 = 0 à 255 car 2^8 : 256
+ex: uint nombre;
+Par defaut, un int ou uint = 0
+
+bool pour les booléens
+ex: bool monBool;
+par defaut, un bool = false
+
+address contient une variables dont la valeur vaut 20 octets.
+chaque user d'ethereum dispose d'une address;
+ex: address monAdresse;
+
+string pour les chaines de caractères
+ex: string maPhrase;
+pour utiliser "string", ne pas oublier le mot clé "memory";
+du genre : 
+function getPhrase() public view returns(string memory){
+retur maPhrase;
+}
+function setPhrase(string memory _maPhrase) public{
+maPhrase = _maPhrase;
+}
+
+mappings pour lier des valeurs.
+ex: mapping(address => uint) Balances;
+
+structure pour utiliser des objets.
+ex: 
+struct balance {
+uint money;
+uint numPayments;
+}
+
+function setAge(int _age) public {
+	require(_age >= 0, "L'age ne doit pas etre negatif.");
+	age = _age;
+	majeur = age >= 18;
+
+   if(majeur){
+	 console.log("Vous etes majeur.");
+   }else {
+	 console.log("Vous etes mineur.");
+   }
+}
+
+function publicFunction() public view returns (string memory) {} //accessible depuis l'exterieur du contrat
+function privateFunction() private view {} //non accessible depuis l'exterieur du contrat. Ne peut etre called qu'à l'interieur du contrat
+function externalFunction() external view returns (address) {} //accessible depuis l'exterieur du contrat
+function internalFunction() internal view returns (uint256) {} //non accessible depuis l'exterieur du contrat. Mais accessible par les autres contrats (fils) qui heritent
+function viewFunction() external view returns (address) {} //n'ecrit pas dans le stockage du contrat. Justes une fonction de lecture simple de données
+function pureFunction(uint _x, uint _y) internal pure returns (uint256) {} //n'écrit ni ne lit dans le contrat. Il ne fait que recevoir les parametres et de travailler avec
+
+Les parametres calldata (utilisable uniquement en external), memory, storage sont respectivement de moins couteux et plus couteux en gas.
+Les mapping sont dans le storage.
+
+Basic deployed at : 0x99CF4c4CAE3bA61754Abd22A8de7e8c7ba3C196d (contract address)
+Basic deployed by: 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB (cabab address)
+Basic execution cost : 5469 gas
+
+
+=================================
+1. Installer et Configurer Ganache
+	Téléchargez et installez Ganache
+	Démarrez Ganache en mode Ethereum (mode Quickstart ou personnalisé)
+	Notez l'URL RPC affichée dans l'interface (souvent http://127.0.0.1:8545 ou http://localhost:8545)
+
+2. Ajuster la Clé Privée
+	Dans Ganache, allez dans l’onglet Accounts.
+	Copiez une des clés privées des comptes générés.
+	Remplacez PRIVATE_KEY par cette clé dans votre code Java.
+	Attention : Sur Ganache, les comptes générés ont déjà de l'ETH. Contrairement à un réseau public (Sepolia, Mainnet), vous n’aurez pas besoin de demander des ETH sur un faucet.
+
+3. Configurer ganache sur Remix-IDE
+	Compiler le smart contract
+	Dans l'onglet Deploy & run transaction -> ENVIRONNMENT -> Customize this list -> cocher "Dev - Ganache Provider"
+	Renseigner le RPC SERVER de ganache, value = 2 ETHER et cliquer sur Deploy.
+	
+4. Déployer le Smart Contract sur Ganache
+	Si vous voulez tester le déploiement, utilisez Web3j ou Truffle pour le faire. Voici un exemple avec Web3j dans le java:
+
+	DocumentRegistry contract = DocumentRegistry.deploy(
+			web3j,
+			credentials,
+			new StaticGasProvider(GAS_PRICE, GAS_LIMIT)
+	).send();
+	System.out.println("Contract deployed at: " + contract.getContractAddress());
+	
+	Ensuite, mettez cette adresse dans CONTRACT_ADDRESS pour vos tests.	
+	
+5. Installer truffle, creer projet avec truffle, le compiler, tester et deployer (https://www.youtube.com/watch?v=CXbbAFzcVs0)
+   S'assurer qu'il y a npm, node installés
+   npm i -g truffle
+   truffle -v
+		Truffle v5.11.5 (core: 5.11.5)
+		Ganache v7.9.1
+		Solidity v0.5.16 (solc-js)
+		Node v18.16.0
+		Web3.js v1.10.0
+	truffle init (créer un projet)
+	truffle compile
+	ouvrir un new terminal et : ganache-cli
+	dans l'ancien terminal : truffle test
+	
